@@ -1,6 +1,7 @@
 # prime.py 
 import math
 # this function determines whether the number is a prime numberdef is_prime(number):
+#
     if number < 2:
         return True
     for i in range(2, int(math.sqrt(number)) + 1):
